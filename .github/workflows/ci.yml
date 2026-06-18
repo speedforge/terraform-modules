@@ -31,6 +31,8 @@ jobs:
           tflint_version: latest
       - name: Init tflint plugins
         run: tflint --init
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Lint modules
         run: |
           for dir in modules/*/; do
