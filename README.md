@@ -7,6 +7,7 @@ Reusable, public OpenTofu/Terraform modules for [Speedforge](https://speedforge.
 | Module | Description |
 |--------|-------------|
 | [arc-runner-scale-set](modules/arc-runner-scale-set/) | GitHub Actions Runner Controller (ARC) runner scale set via the upstream `gha-runner-scale-set` Helm chart |
+| [runner-cluster](modules/runner-cluster/) | Provider-portable Kubernetes runner cluster contract with Rackspace Spot, OCI OKE, and GKE adapters |
 
 ## Usage
 
